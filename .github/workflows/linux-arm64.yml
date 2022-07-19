@@ -27,11 +27,11 @@ jobs:
         run: |
           # Override OpenCV version in Dockerfile
           docker build \
-            -t opencvsharp-linux-arm:latest \
+            -t opencvsharp-linux-arm64:latest \
             --output=type=docker \
             --platform=linux/arm/v8 \
             --build-arg OPENCV_VERSION \
-            ./docker/ubuntu18-dotnetcore3.1-opencv4.5.3
+            ./docker/ubuntu18-dotnetcore3.1-opencv4.5.3-arm64
 
       - name: Extract build files from Docker instance
         run: |
