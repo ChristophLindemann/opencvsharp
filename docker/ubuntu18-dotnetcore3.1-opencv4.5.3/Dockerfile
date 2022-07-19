@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:3.1-focal
+FROM mcr.microsoft.com/dotnet/sdk:3.1-focal-arm64v8
 ENV DEBIAN_FRONTEND=noninteractive
 ARG OPENCV_VERSION=4.5.3
 
