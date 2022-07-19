@@ -1,4 +1,4 @@
-name: Linux ARM (Docker)
+name: Linux ARMv8 64 (Docker)
 
 on:
   pull_request:
